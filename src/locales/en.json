@@ -1,0 +1,11 @@
+{
+  "loading": "Loading",
+  "login": {
+    "login": "Login",
+    "signUpWithGoogle": "Sign Up with Google",
+    "signUpWithGitHub": "Sign Up with GitHub",
+    "fakeLoginPage": "Fake Login Page",
+    "email": "Email",
+    "password": "Password"
+  }
+}
