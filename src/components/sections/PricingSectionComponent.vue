@@ -1,18 +1,18 @@
 <template>
   <section
-    class="pricing relative pt-32 bg-white dark:bg-gradient-custom-dark dark:text-white"
+    class="pricing relative pt-36 bg-white dark:bg-gradient-custom-dark dark:text-white "
   >
-    <div class="text-center xl:px-40 lg:px-20 md:px-12 px-4 leading-8">
-      <SemiCircleComponet class="absolute left-0 top-32" />
-      <h1 class="font-bold lg:text-6xl text-3xl px-4 leading-[5.5rem]">
+    <div class="text-center xl:px-40 lg:px-20 md:px-12 px-4 leading-4 md:leading-8">
+      <SemiCircleComponet class="absolute left-0 top-32 z-0" />
+      <h1 class="font-bold lg:text-6xl text-3xl px-4 leading-[2rem] md:leading-[5.5rem] relative z-10">
         Start today, with free or <br />
         premium plan, you choose
       </h1>
-      <p class="text-neutral-500 py-5 px-4 dark:text-white">
+      <p class="text-neutral-500 py-5 px-4 dark:text-white relative z-10">
         At vero eos et accusamus et iusto odio dignissimos ducimus qui
         blanditiis
       </p>
-      <div class="flex flex-wrap items-center justify-center mt-36 gap-8 !dark:text-white">
+      <div class="flex flex-wrap items-center justify-center mt-36 gap-8 !dark:text-white  md:mx-0">
         <PricingCardComponent
           :items="BasicPlanItems"
           :premium="false"

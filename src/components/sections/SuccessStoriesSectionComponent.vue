@@ -1,15 +1,17 @@
 <template>
   <section
-    class="bg-purple-light relative pt-44 text-center dark:bg-gradient-custom-dark dark:text-white py-10"
+    class="bg-purple-light relative pt-36 text-center dark:bg-gradient-custom-dark dark:text-white py-10"
     @mouseenter="pauseAutoSwitch"
     @mouseleave="resumeAutoSwitch"
   >
-    <SemiCircleComponet class="absolute right-0 -top-32 transform rotate-180" />
+    <SemiCircleComponet
+      class="absolute right-0 -top-32 transform rotate-180 z-0"
+    />
 
-    <h1 class="font-bold lg:text-6xl text-3xl px-4">
+    <h1 class="font-bold lg:text-6xl text-3xl px-4 relative z-10">
       Check what our clients are saying
     </h1>
-    <p class="text-neutral-500 py-5 px-4 dark:text-white">
+    <p class="text-neutral-500 py-5 px-4 dark:text-white relative z-10">
       Cum soluta nobis est eligendi optio cumque
     </p>
     <div class="flex flex-col items-center space-y-6">
@@ -27,9 +29,9 @@
               :title="story.title"
               :active="story.id === selectedProfile?.id"
               :class="{
-                'scale-110 shadow-lg border border-gray-300 opacity-100':
+                'scale-110 shadow-lg border border-gray-300 !opacity-100':
                   story.id === selectedProfile?.id,
-                'transition-all duration-300 ease-in-out opacity-50	': true,
+                'transition-all duration-300 ease-in-out opacity-50': true,
               }"
             /> </template
           ><UserOpnionComponent

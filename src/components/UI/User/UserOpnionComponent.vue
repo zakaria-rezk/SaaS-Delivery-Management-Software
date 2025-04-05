@@ -1,7 +1,7 @@
 <template>
-  <div class="w-full">
+  <div class="">
     <BaseCardComponent
-      class="w-2/3 h-[350px] text-center flex justify-center m-auto"
+      class="md:w-2/3 md:h-[350px] text-center flex justify-center w-full py-4 m-auto"
     >
       <div class="flex py-10 mt-10">
         <span v-for="i in 5">
@@ -19,7 +19,7 @@
           </svg>
         </span>
       </div>
-      <h3 class="px-12 pb-10 font-medium text-xl">
+      <h3 class="md:px-12 px-2 pb-10 font-medium text-xl">
         {{ comment }}
       </h3>
       <AppImageComponent

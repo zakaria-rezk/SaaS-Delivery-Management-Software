@@ -4,7 +4,7 @@
       Companies we have helped grow
     </h1>
     <div
-      class="flex justify-center dark:bg-blue gap-32 items-center flex-wrap py-12"
+      class="flex justify-center dark:bg-blue md:gap-32 gap-12 items-center flex-wrap py-12"
     >
       <template v-for="(img, index) in Imgs" :key="index">
         <AppImageComponent

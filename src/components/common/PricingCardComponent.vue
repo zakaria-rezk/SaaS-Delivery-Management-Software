@@ -1,6 +1,6 @@
 <template>
   <BaseCardComponent
-    class="w-[770px] h-[525px]"
+    class=" w-[770px] md:h-[525px]"
     :class="{ 'bg-gradient-custom !dark:text-white !text-white ': premium }"
   >
     <div class="flex justify-between">

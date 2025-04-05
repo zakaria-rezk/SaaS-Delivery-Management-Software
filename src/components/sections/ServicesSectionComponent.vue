@@ -1,6 +1,6 @@
 <template>
   <section
-    class="pt-36 bg-white text-center dark:bg-gradient-custom-dark dark:text-white"
+    class="pt-36 px-4 bg-white text-center dark:bg-gradient-custom-dark dark:text-white"
   >
     <h1 class="font-bold lg:text-6xl text-3xl px-4">
       Learn more about process
@@ -13,7 +13,7 @@
     >
       <div v-for="(service, index) in services" :key="service.id">
         <BaseCardComponent
-          class="h-[457px] border w-[400px] relative rounded-[32px] b"
+          class="h-[457px] border md:w-[400px]  relative rounded-[32px] b"
           :primary="service.id === 1"
           ><SemiCircle
             v-if="service.id !== 1"

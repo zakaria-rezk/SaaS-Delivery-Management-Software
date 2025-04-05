@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-white dark:bg-gradient-custom-dark relative z-10 text-center rounded-[32px] relative z-50 shadow shadow-b-2xl"
+    class="bg-white dark:bg-gradient-custom-dark relative z-10 text-center rounded-[32px] shadow shadow-b-2xl py-4"
     :class="{ 'shadow-gradient': primary }"
   >
     <div class="content flex flex-col items-center px-6 shadow-bottom relative">

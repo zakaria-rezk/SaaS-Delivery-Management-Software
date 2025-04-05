@@ -97,7 +97,7 @@ const sizeClasses = computed(() => {
     case "x-large":
       return "w-[136px] h-[62px] font-medium text-xl";
     case "2x-large":
-      return "w-[225px] h-[72px] font-medium text-xl";
+      return "w-[136px] h-[62px] md:w-[225px] md:h-[72px] font-medium text-xl";
     case "full":
       return "px-4 py-2 w-full";
     default:

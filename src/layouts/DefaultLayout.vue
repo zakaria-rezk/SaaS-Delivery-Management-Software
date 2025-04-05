@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gradient-custom dark:bg-gradient-custom-dark">
+  <div class="bg-gradient-custom dark:bg-gradient-custom-dark overflow-hidden">
     <NavBar />
     <main>
       <slot />

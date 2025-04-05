@@ -7,10 +7,10 @@
       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
       dolore
     </p>
-    <div class="feature flex justify-center gap-12 items-start flex-wrap py-12">
+    <div class="feature flex justify-center gap-12 items-start flex-wrap py-12 mx-4">
       <div v-for="(feature, index) in features" :key="feature.id">
         <BaseCardComponent
-          class="h-[450px] border w-[360px] relative rounded-[32px] b"
+          class="sm:h-[450px] border sm:w-[360px] relative "
           :primary="feature.id === 2"
         >
           <template #illustrations>
