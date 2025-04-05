@@ -56,5 +56,5 @@ const PremiumPlanItems = [
   "EaCommerce builder",
 ];
 import PricingCardComponent from "@/components/common/PricingCardComponent.vue";
-import SemiCircleComponet from "@/components/UI/Illustrations/SemiCircleComponet.vue";
+import SemiCircleComponet from "@/components/UI/Illustrations/SemiCircleComponent.vue";
 </script>

@@ -67,3 +67,34 @@ export const features: Feature[] = [
       "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam",
   },
 ];
+interface Fag {
+  question: string;
+  answer: string;
+  isOpen: boolean;
+}
+export const Fags: Fag[] = [
+  {
+    isOpen: false,
+    question: "Website reponse taking time, how to improve?",
+    answer:
+      "Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home.",
+  },
+  {
+    isOpen: false,
+    question: "App installation failed, how to update system information?",
+    answer:
+      "Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home.",
+  },
+  {
+    isOpen: false,
+    question: "App installation failed, how to update system information?",
+    answer:
+      "Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home.",
+  },
+  {
+    isOpen: false,
+    question: "New update fixed all bug and issues?",
+    answer:
+      "Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home collect a sample from management news. Get your blood tests delivered at the home.",
+  },
+];

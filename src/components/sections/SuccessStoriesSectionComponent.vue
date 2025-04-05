@@ -4,7 +4,7 @@
     @mouseenter="pauseAutoSwitch"
     @mouseleave="resumeAutoSwitch"
   >
-    <SemiCircleComponet
+    <SemiCircleComponent
       class="absolute right-0 -top-32 transform rotate-180 z-0"
     />
 
@@ -61,13 +61,13 @@
 import { ref, computed, onMounted, onUnmounted } from "vue";
 import UserProfileComponent from "@/components/UI/User/UserProfileComponent.vue";
 import UserOpnionComponent from "../UI/User/UserOpnionComponent.vue";
-import SemiCircleComponet from "@/components/UI/Illustrations/SemiCircleComponet.vue";
+import SemiCircleComponent from "@/components/UI/Illustrations/SemiCircleComponent.vue";
 import Aven from "@/assets/Images/partners/Aven.png";
 import Ideaa from "@/assets/Images/partners/Ideaa.png";
 import Treva from "@/assets/Images/partners/Treva.png";
 import Velocity from "@/assets/Images/partners/Velocity 9.png";
 import live from "@/assets/Images/partners/Liva.png";
-import { comment } from "postcss";
+
 const Imgs = [Aven, Ideaa, Velocity, live, Treva];
 
 interface Story {

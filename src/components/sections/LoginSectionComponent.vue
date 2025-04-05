@@ -1,6 +1,6 @@
 <template>
   <section
-    class="lgoin bg-purple-light pt-24 xl:px-40 lg:px-20 md:px-12 px-4 my-10 relative"
+    class="lgoin bg-purple-light pt-36 xl:px-40 lg:px-20 md:px-12 px-4  relative"
   >
     <div
       class="bg-gradient-custom overflow-hidden md:pl-24  h-[461px] dark:bg-gradient-custom-dark relative z-10 rounded-[32px] shadow shadow-b-2xl py-4 flex"
