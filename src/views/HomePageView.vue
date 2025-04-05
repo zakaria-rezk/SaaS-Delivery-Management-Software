@@ -1,6 +1,6 @@
 <template>
   <HeroSectionComponent /><PartnersSectionComponent /><ServicesSectionComponent /><PricingSectionComponent />
-  <FeaturesSectionComponent /><SuccessStoriesSectionComponent /><
+  <FeaturesSectionComponent /><SuccessStoriesSectionComponent /><LoginSectionComponent />
 </template>
 <script lang="ts" setup>
 import HeroSectionComponent from "@/components/sections/HeroSectionComponent.vue";
