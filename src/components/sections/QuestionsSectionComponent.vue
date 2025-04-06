@@ -1,6 +1,6 @@
 <template>
   <section
-    class="pt-36 bg-purple-light xl:px-40 lg:px-20 md:px-12 px-4 text-center relative"
+    class="pt-36  dark:bg-gradient-custom-dark bg-purple-light xl:px-40 lg:px-20 md:px-12 px-4 text-center relative"
   >
     <h1 class="font-bold lg:text-6xl text-3xl px-4">
       Do you have any question
@@ -15,7 +15,7 @@
         <div
           v-for="(faq, index) in fags"
           :key="index"
-          class="bg-white rounded-lg overflow-hidden transition-all duration-300"
+          class="bg-white  dark:bg-transparent dark:text-white rounded-lg overflow-hidden transition-all duration-300"
           :class="{ 'bg-opacity-90': faq.isOpen }"
         >
           <div class="question flex gap-4">
@@ -29,22 +29,22 @@
           </div>
           <transition name="faq">
             <div v-show="faq.isOpen" class="px-6 pb-6">
-              <p class="text-gray-600 leading-8">{{ faq.answer }}</p>
+              <p class="text-gray-600 dark:text-white leading-8">{{ faq.answer }}</p>
             </div>
           </transition>
         </div>
       </div>
     </BaseCardComponent>
-    <div class="flex justify-center items-center mt-20 mb-10">
+    <div
+      class="flex relative  z-50 justify-center items-center mt-4 md:mt-20 pb-12 md:pb-32"
+    >
       <BaseButtonComponent
         variant="primary"
         label="More FAQs"
         size="2x-large"
       />
     </div>
-    <SemiCircleComponent
-      class="absolute left-0 -bottom-32 transform  z-0"
-    />
+    <SemiCircleComponent class="absolute left-0 -bottom-36 md:-bottom-32 transform z-0" />
   </section>
 </template>
 <script lang="ts" setup>

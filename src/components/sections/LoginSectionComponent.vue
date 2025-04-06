@@ -1,9 +1,9 @@
 <template>
   <section
-    class="lgoin bg-purple-light pt-36 xl:px-40 lg:px-20 md:px-12 px-4  relative"
+    class="login  dark:bg-gradient-custom-dark bg-purple-light pt-36 xl:px-40 lg:px-20 md:px-12 px-4 relative"
   >
     <div
-      class="bg-gradient-custom overflow-hidden md:pl-24  h-[461px] dark:bg-gradient-custom-dark relative z-10 rounded-[32px] shadow shadow-b-2xl py-4 flex"
+      class="bg-gradient-custom overflow-hidden md:pl-24 md:h-[461px] dark:bg-gradient-custom-dark relative z-10 rounded-[32px] shadow shadow-b-2xl py-4 flex"
     >
       <div class="px-12 w-full">
         <h1
@@ -14,16 +14,17 @@
         <p class="text-white text-xl py-5 p dark:text-white relative z-10">
           Free trail 14 days of change and without obligation
         </p>
-        <div class="flex gap-4 py-12">
+        <div class="flex md:flex-row flex-col gap-4 py-12">
           <BaseInputComponent
             placeholder="Enter your email"
-            value="ss"
             :model="email"
             type="text"
           />
-          <BaseButtonComponent variant="light" size="2x-large" label="Register for free"
-            ></BaseButtonComponent
-          >
+          <BaseButtonComponent
+            variant="light"
+            size="2x-large"
+            label="Register for free"
+          ></BaseButtonComponent>
         </div>
       </div>
       <div class="overflow-hidden w-fit hidden md:block w-3/4">

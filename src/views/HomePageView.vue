@@ -1,6 +1,6 @@
 <template>
   <HeroSectionComponent /><PartnersSectionComponent /><ServicesSectionComponent /><PricingSectionComponent />
-  <FeaturesSectionComponent /><SuccessStoriesSectionComponent /><LoginSectionComponent /><QuestionsSectionComponent />
+  <FeaturesSectionComponent /><SuccessStoriesSectionComponent /><LoginSectionComponent /><QuestionsSectionComponent /><FotterLinksSection />
 </template>
 <script lang="ts" setup>
 import HeroSectionComponent from "@/components/sections/HeroSectionComponent.vue";
@@ -11,4 +11,5 @@ import PricingSectionComponent from "@/components/sections/PricingSectionCompone
 import SuccessStoriesSectionComponent from "@/components/sections/SuccessStoriesSectionComponent.vue";
 import LoginSectionComponent from "@/components/sections/LoginSectionComponent.vue";
 import QuestionsSectionComponent from "@/components/sections/QuestionsSectionComponent.vue";
+import FotterLinksSection from "@/components/sections/FooterLinksSection.vue";
 </script>

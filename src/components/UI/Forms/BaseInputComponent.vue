@@ -6,7 +6,7 @@
     :type="type"
     v-model="model"
     :placeholder="placeholder"
-    class="block w-full rounded-xl px-2 border-0 py-1.5 shadow-sm ring-1 ring-inset focus:ring-2 focus:ring-inset sm:text-sm py-4"
+    class="block md:w-2/5 w-full rounded-xl px-2 border-0 py-1.5 shadow-sm ring-1 ring-inset focus:ring-2 focus:ring-inset sm:text-sm py-4"
   />
 </template>
 <script lang="ts" setup>
