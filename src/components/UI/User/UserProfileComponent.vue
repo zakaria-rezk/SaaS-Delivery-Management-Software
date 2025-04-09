@@ -15,7 +15,7 @@
 </template>
 <script lang="ts" setup>
 import AppImageComponent from "@/components/UI/AppImageComponent.vue";
-import profileImage from "@/assets/Images/profile.webp";
+import profileImage from "@/assets/images/profile.webp";
 const props = defineProps({
   name: {
     type: String,
