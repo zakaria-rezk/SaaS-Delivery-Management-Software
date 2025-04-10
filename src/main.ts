@@ -5,6 +5,10 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import router from "./router";
 import i18n from "@/plugins/i18n";
 import "@/assets/tailwind.css";
+
+
+
+
 import { fas } from "@fortawesome/free-solid-svg-icons";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import { library } from "@fortawesome/fontawesome-svg-core";
