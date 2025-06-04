@@ -70,7 +70,7 @@
           ]"
           :src="HeroImage"
           alt="Hero Image"
-          loading="lazy"
+          loading="eager"
           decoding="async"
           :height="674"
           :width="945"
