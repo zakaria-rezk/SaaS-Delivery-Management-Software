@@ -10,7 +10,7 @@
     />
 
     <!-- Fallback -->
-    <!-- <img
+    <img
       class="rounded-xl"
       :src="src"
       :alt="alt"
@@ -21,7 +21,7 @@
       :class="['app-image', { 'object-cover': cover }]"
       :style="{ aspectRatio: aspect }"
       @error="handleError"
-    /> -->
+    />
   </picture>
 
   <!-- <img
