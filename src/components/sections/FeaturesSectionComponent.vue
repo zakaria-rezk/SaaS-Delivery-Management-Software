@@ -1,16 +1,19 @@
 <template>
   <section
-    class="py-36 bg-white text-center text-center  dark:bg-gradient-custom-dark dark:text-white pb-62"
+    class="py-36 bg-white text-center text-center dark:bg-gradient-custom-dark dark:text-white pb-62"
   >
+  
     <h1 class="font-bold lg:text-6xl text-3xl px-4">Features for you</h1>
     <p class="text-neutral-500 py-5 px-4 dark:text-white">
       Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
       dolore
     </p>
-    <div class="feature flex justify-center gap-12 items-start flex-wrap py-12 mx-4">
+    <div
+      class="feature flex justify-center gap-12 items-start flex-wrap py-12 mx-4"
+    >
       <div v-for="(feature, index) in features" :key="feature.id">
         <BaseCardComponent
-          class="sm:h-[450px] border sm:w-[360px] relative "
+          class="sm:h-[450px] border sm:w-[360px] relative"
           :primary="feature.id === 2"
         >
           <template #illustrations>

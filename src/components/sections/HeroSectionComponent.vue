@@ -82,6 +82,11 @@
   </section>
 </template>
 <script lang="ts" setup>
+import { computed, onErrorCaptured } from "vue";
+onErrorCaptured((error, instance, info) => {
+  console.log(error," Error captured in HeroSectionComponent");
+  return false;
+});
 import HeroImage from "@/assets/Images/dashbord.webp";
 import dashbord_672x479 from "@/assets/Images/dashbord@672x479.webp";
 import dashbord_394x281 from "@/assets/Images/dashbord@394x281.webp";

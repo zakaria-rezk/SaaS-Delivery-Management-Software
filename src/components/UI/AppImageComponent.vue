@@ -10,7 +10,7 @@
     />
 
     <!-- Fallback -->
-    <img
+    <!-- <img
       class="rounded-xl"
       :src="src"
       :alt="alt"
@@ -21,7 +21,7 @@
       :class="['app-image', { 'object-cover': cover }]"
       :style="{ aspectRatio: aspect }"
       @error="handleError"
-    />
+    /> -->
   </picture>
 
   <!-- <img
@@ -39,6 +39,7 @@
 </template>
 
 <script setup lang="ts">
+
 import { computed } from "vue";
 type ImageFormat = "webp" | "avif" | "jpeg";
 type ImageSource = { media: string; srcset: string };
@@ -70,6 +71,4 @@ const handleError = (e: Event) => {
 };
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
