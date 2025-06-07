@@ -7,6 +7,9 @@ export default {
   darkMode: "class", // Enables class-based dark mode support
   theme: {
     extend: {
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+      },
       backgroundImage: {
         "gradient-custom":
           "linear-gradient(232.69deg, #5A72EA 28.37%, #8468B1 95.18%)",
