@@ -7,8 +7,7 @@
         <h1
           class="text-4xl md:text-5xl flex items-center justify-between font-bold lg:text-7xl lg:leading-[5.5rem] leading-[3.5rem] lg:pr-10"
         >
-          SaaS Delivery Management 
-          S<br />
+          SaaS Delivery Management <br />
           Software
         </h1>
         <p class="py-10 text-lg lg:text-xl font-light leading-6 lg:leading-8">
